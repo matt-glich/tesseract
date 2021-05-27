@@ -1,6 +1,6 @@
 # Dockerfile for local Travis build test
 
-FROM ubuntu
+FROM ubuntu:groovy-20210416
 LABEL maintainer="Ian Blenke <ian@blenke.com>"
 
 RUN apt-get update
