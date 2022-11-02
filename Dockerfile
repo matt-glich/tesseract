@@ -1,6 +1,6 @@
 # Dockerfile for local Travis build test
 
-FROM ubuntu
+FROM ubuntu:kinetic-20220830
 LABEL maintainer="Ian Blenke <ian@blenke.com>"
 
 RUN apt-get update
